@@ -1,0 +1,27 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.course_table {
+	display: table;
+    float: none;
+    margin: 0 auto;
+    table-layout: fixed;
+    font-size: 1.25em;
+	}
+.course_header {
+	color: black;
+	padding: 10px 50px;
+}
+.course_data {
+	padding: 10px 50px;
+	border-bottom: 2px solid #D3D3D3;
+}
+.course_row:nth-child(even) {
+	padding: 10px 50px;
+	border-bottom: 2px solid #D3D3D3;
+	background: #D3D3D3;
+}
