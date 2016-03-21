@@ -25,3 +25,11 @@ body {
 	border-bottom: 2px solid #D3D3D3;
 	background: #D3D3D3;
 }
+.project-button {
+	font-size: 24px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+}
