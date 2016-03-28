@@ -26,10 +26,19 @@ body {
 	background: #D3D3D3;
 }
 .project-button {
-	font-size: 24px;
-	background-color: black;
-	color: white;
+	font-size: 30px;
+	background-color: white;
+	border-color: red;
+	color: red;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 5px;
 	text-decoration: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	padding: 15px;
+}
+.project-button:hover {
+    background-color: red;
+    color: white;
+	border-color: white;
 }
